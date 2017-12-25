@@ -10,7 +10,7 @@ Steps to execute the program in Spark
 3) In the amazon aws account put all the fies in a s3 bucket (eg: bucket-name)
 4) Setup the Emr cluster with the following configuration: ec2 instance type: m4.2x large
  number of nodes: 6(1 master and 5 worker nodes)
- With the spark Framework
+ Platttygftggybyh the spark Framework
 5) Place all the queries in the cluster
 6) extract all these .py queries and to execute each of them use the following command:
 spark-submit Airports_Cities_10years.py s3://bucket-name/*.csv s3://bucket-name/airports.csv s3://bucket-name/carriers.csv
