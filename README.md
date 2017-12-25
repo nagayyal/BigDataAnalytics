@@ -1,4 +1,4 @@
-Steps to execute the program
+Steps to execute the program in Spark
 
 1) Download the data from https://packages.revolutionanalytics.com/datasets/AirOnTime87to12/AirOnTimeCSV.zip (unzipped version)
 2) Download airports.csv , carriers.csv from http://stat-computing.org/dataexpo/2009/supplemental-data.html
@@ -11,3 +11,14 @@ Steps to execute the program
 spark-submit Airports_Cities_10years.py s3://bucket-name/*.csv s3://bucket-name/airports.csv s3://bucket-name/carriers.csv
 
 the executed command would give the time and also the results
+Used pyspark to execute in spark framework
+
+Few Sample queries are
+1) Top 10 states having high airports
+2) Best Airlines till now(1987-2012)
+3) Best times in the week to travel
+4) Best times in the year to travel
+5) Cities wherein new airports are built since last 15 years
+6) City Pairs with Maximum diversions
+7) Top 5 Visited Destinations
+
